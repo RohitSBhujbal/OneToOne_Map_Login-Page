@@ -67,10 +67,10 @@ o Note : These annotations play crucial roles in defining the structure and beha
 ## Important object of the hibernate file to perform task
 
 1. To develop hibernate operation we have to use following object
-a. Configuration  :Configuration object responsible to be hibernate mapping file data on configuration file data
-b. SessionFactory=> SessionFactory object is responsible to create database platform=>Session factory objects collect the metadata from the configuration file andestablish the connection with the database
-c. Session=>Session object is responsible to perform persistence object
-d. Transaction=>Transaction object responsible to commit and rollback DML operation
+a. Configuration  : Configuration object responsible to be hibernate mapping file data on configuration file data
+b. SessionFactory : SessionFactory object is responsible to create database platform=>Session factory objects collect the metadata from the configuration file andestablish the connection with the database
+c. Session        : Session object is responsible to perform persistence object
+d. Transaction    : Transaction object responsible to commit and rollback DML operation
 
 
 ## Usage
