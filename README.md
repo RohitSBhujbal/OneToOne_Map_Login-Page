@@ -1,6 +1,6 @@
 Athor Name :Rohit Bhujbal
 
-# Hibernate One-to-One Mapping Example
+# Hibernate One-to-One Mapping 
 
 This repository contains a simple example project demonstrating One-to-One mapping using Hibernate, a popular Java-based ORM framework.
 
@@ -63,6 +63,15 @@ public class Account {
 }
 
 o Note : These annotations play crucial roles in defining the structure and behavior of entities in a Hibernate-based application.
+
+## Important object of the hibernate file to perform task
+
+1. To develop hibernate operation we have to use following object
+a. Configuration  :Configuration object responsible to be hibernate mapping file data on configuration file data
+b. SessionFactory=> SessionFactory object is responsible to create database platform=>Session factory objects collect the metadata from the configuration file andestablish the connection with the database
+c. Session=>Session object is responsible to perform persistence object
+d. Transaction=>Transaction object responsible to commit and rollback DML operation
+
 
 ## Usage
 The MainApp class contains the main method to execute the demonstration. After running the application.
